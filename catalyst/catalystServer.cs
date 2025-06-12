@@ -383,7 +383,7 @@ public static class NpcLoader
             var selected = entry.Options[optionIndex - 1];
             CharacterCreator.SendToClient(client, $"{targetNpc.Name} replies: {selected.Response}");
 
-            // 🛍 Merchant logic
+            //Merchant logic
             if (selected.Option.Equals("Browse wares", StringComparison.OrdinalIgnoreCase) && targetNpc.IsMerchant)
             {
                 CharacterCreator.SendToClient(client, $"{targetNpc.Name} offers:");

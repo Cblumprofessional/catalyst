@@ -121,7 +121,7 @@ public class Client
     int mana = data.GetValueOrDefault("mana").GetInt32();
     int gold = data.GetValueOrDefault("playerGold").GetInt32();
 
-    // Placeholder for location name/desc (improve later if needed)
+    // Placeholder for location name/desc
     string locationName = locationId switch
     {
         "cradle_05" => "Cinder Grove",

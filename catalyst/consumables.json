@@ -1,0 +1,10 @@
+[
+    {
+        "id": "potion_health",
+        "name": "health potion",
+        "price": 10,
+        "effects": "heals 10 hp",
+        "statModifer": "hp",
+        "add": 10
+    }
+]

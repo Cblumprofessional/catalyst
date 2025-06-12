@@ -1,0 +1,75 @@
+[
+  {
+    "id": "merchant_mila_01",
+    "name": "Mila the Wanderer",
+    "description": "A robed figure with kind eyes and a satchel of goods.",
+    "location": "cradle_05",
+    "isHostile": false,
+    "isMerchant": true,
+    "faction": "WanderersGuild",
+    "inventory": {
+      "gold": 5,
+      "potion_health": 1
+    },
+
+    "merchantStock": {
+      "potion_health": 10,
+      "mana_potion": 12,
+      "dagger": 20
+    },
+    "quests": ["lost_relic", "first_steps"],
+    "dialogue": [
+      {
+        "text": "The world is cruel, but maybe this will help.",
+        "options": [
+          { "option": "Browse wares", "response": "Take a look at my goods." },
+          { "option": "Any work?", "response": "I heard rumors of a relic in the grove..." }
+        ]
+      }
+    ],
+    "stats": {
+      "constitution": 10,
+      "strength": 1,
+      "intelligence": 10,
+      "agility": 3
+    },
+    "behavior": "idle",
+    "flags": ["questGiver", "canTrade"]
+  },
+  {
+    "id": "goblin_yippity",
+    "name": "Yippity",
+    "description": "A small malnourished goblin.",
+    "location": "cradle_02",
+    "isHostile": true,
+    "isMerchant": false,
+    "faction": "",
+    "inventory": {
+      "gold": 5,
+      "torch": 1
+    },
+
+    "merchantStock": {
+      "healing_potion": 10,
+      "mana_potion": 12,
+      "dagger": 20
+    },
+    "quests": [],
+    "dialogue": [
+      {
+        "text": "You look like easy prey!.",
+        "options": [
+
+        ]
+      }
+    ],
+    "stats": {
+      "constitution": 10,
+      "strength": 1,
+      "intelligence": 10,
+      "agility": 3
+    },
+    "behavior": "idle",
+    "flags": ["questGiver", "canTrade"]
+  }
+]

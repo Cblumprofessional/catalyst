@@ -1,0 +1,34 @@
+[
+  {
+    "Name": "Erevan",
+    "PasswordHash": "E7CF3EF4F17C3999A94F2C6F612E8A888E5B1026878E4E19398B23BD38EC221A",
+    "ClassId": "ashcaller",
+    "gold": 5,
+    "maxHealth": 62,
+    "healthPoints": 62,
+    "maxMana": 28,
+    "manaPoints": 28,
+    "Stats": {
+      "constitution": 8,
+      "strength": 4,
+      "intelligence": 17,
+      "agility": 6
+    },
+    "Location": "cradle_05",
+    "Inventory": [
+      "mace",
+      "potion_health",
+      "potion_health"
+    ],
+    "Skills": [
+      "ember_bolt, cinder_wisp"
+    ],
+    "Status": 17,
+    "RoomStates": {
+      "cradle_01": 2,
+      "cradle_02": 3,
+      "cradle_03": 2,
+      "cradle_04": 2
+    }
+  }
+]

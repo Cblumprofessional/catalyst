@@ -1,0 +1,65 @@
+[
+    
+    
+        {
+            "id": "cradle_01",
+            "roomName": "The Smoldering Cradle",
+            "description": "You awaken on scorched soil, the sky a dull red hue. Ash rains gently. You feel no pain, but something is... missing. A broken obelisk hums faintly.",
+            "loot":{},
+            "connections": ["cradle_02"],
+            "x": 0,
+            "y": 1
+        },
+        {
+            "id": "cradle_02",
+            "roomName": "Burned Grove",
+            "description": "A ruined altar. Symbols etched into the stone glow as you approach. The words twist but a single glyph matches the one on your hand.",
+            "loot": {
+                "gold": 5,
+                "potion_health": 1
+            },
+            "connections": ["cradle_01", "cradle_03"],
+            "x": 1,
+            "y": 1
+        },
+        {
+            "id": "cradle_03",
+            "roomName": "Shattered Altar",
+            "description": "Blackened trees claw upward like broken fingers. The smell of sulfur hangs thick. Something watches from the smoke.",
+            "loot":{},
+            "connections": ["cradle_02", "cradle_04"],
+            "x": 2,
+            "y": 1
+        },
+        {
+            "id": "cradle_04",
+            "roomName": "The Waking Mirror",
+            "description": "A half-buried relic, part metal, part bone,reflects your face. Your eyes are unfamiliar. The relic pulses, showing flickers of ruined cities.",
+            "loot":{},
+            "connections": ["cradle_03", "cradle_05", "cradle_06"],
+            "x": 3,
+            "y": 1
+        },
+        {
+            "id": "cradle_05",
+            "roomName": "Cinder Grove",
+            "description": "What remains of a village sleeps beneath layers of ash. Charred homes stand like tombstones, their windows dark. A few hollow-eyed survivors linger near the square, too weary to speak. The air tastes of soot and silence.",
+            "loot":{},
+            "connections": ["cradle_04"],
+            "x": 3,
+            "y": 0
+        },
+            {
+            "id": "cradle_06",
+            "roomName": "Path of Cinders",
+            "description": "A narrow trail lined with molten footprints. It leads up the crater’s edge, toward faint lights in the distance.",
+            "loot":{"gold": 3},
+            "connections": ["cradle_04"]
+        }
+    
+       
+    
+
+
+
+]

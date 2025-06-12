@@ -1,0 +1,14 @@
+C:\Users\Blums\Documents\PersonalProjects\mudGame\catalystClient\bin\Debug\net8.0\CatalystClient.exe
+C:\Users\Blums\Documents\PersonalProjects\mudGame\catalystClient\bin\Debug\net8.0\CatalystClient.deps.json
+C:\Users\Blums\Documents\PersonalProjects\mudGame\catalystClient\bin\Debug\net8.0\CatalystClient.runtimeconfig.json
+C:\Users\Blums\Documents\PersonalProjects\mudGame\catalystClient\bin\Debug\net8.0\CatalystClient.dll
+C:\Users\Blums\Documents\PersonalProjects\mudGame\catalystClient\bin\Debug\net8.0\CatalystClient.pdb
+C:\Users\Blums\Documents\PersonalProjects\mudGame\catalystClient\obj\Debug\net8.0\CatalystClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Blums\Documents\PersonalProjects\mudGame\catalystClient\obj\Debug\net8.0\CatalystClient.AssemblyInfoInputs.cache
+C:\Users\Blums\Documents\PersonalProjects\mudGame\catalystClient\obj\Debug\net8.0\CatalystClient.AssemblyInfo.cs
+C:\Users\Blums\Documents\PersonalProjects\mudGame\catalystClient\obj\Debug\net8.0\CatalystClient.csproj.CoreCompileInputs.cache
+C:\Users\Blums\Documents\PersonalProjects\mudGame\catalystClient\obj\Debug\net8.0\CatalystClient.dll
+C:\Users\Blums\Documents\PersonalProjects\mudGame\catalystClient\obj\Debug\net8.0\refint\CatalystClient.dll
+C:\Users\Blums\Documents\PersonalProjects\mudGame\catalystClient\obj\Debug\net8.0\CatalystClient.pdb
+C:\Users\Blums\Documents\PersonalProjects\mudGame\catalystClient\obj\Debug\net8.0\CatalystClient.genruntimeconfig.cache
+C:\Users\Blums\Documents\PersonalProjects\mudGame\catalystClient\obj\Debug\net8.0\ref\CatalystClient.dll

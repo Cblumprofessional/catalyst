@@ -1,0 +1,59 @@
+[
+  {
+    "id": "ashcaller",
+    "name": "Ashcaller",
+    "description": "A mystic who commands ash spirits and scorched winds.",
+    "statPointsToDistribute": 50,
+    "availableStats": ["constitution", "strength", "intelligence", "agility"],
+    "recommendedBuild": {
+      "constitution": 8,
+      "strength": 4,
+      "intelligence": 17,
+      "agility": 6
+    },
+    "health": 50,
+    "mana": 15,
+    "startingSkills": ["ember_bolt", "cinder_wisp"],
+    "startingWeapon": "mace",
+    "resourceType":  "intelligence",
+    "tags": ["magic", "summoner", "hybrid"]
+  },
+  {
+  "id": "warden",
+    "name": "Warden",
+    "description": "A brutal survivor clad in ruin-scarred armor who endures where others fall.",
+    "statPointsToDistribute": 50,
+    "availableStats": ["constitution", "strength", "intelligence", "agility"],
+    "recommendedBuild": {
+      "constitution": 22,
+      "strength": 18,
+      "intelligence": 1,
+      "agility": 8
+    },
+    "health": 50,
+    "mana": 15,
+    "startingSkills": ["shield_bash", "iron_will"],
+    "startingWeapon": "warhammer",
+    "resourceType": "strength",
+    "tags": ["melee", "tank", "resilience"]
+  },
+  {
+  "id": "hollowed",
+    "name": "Hollowed",
+    "description": "A soul-fractured mage who casts spells by burning away pieces of themselves.",
+    "statPointsToDistribute": 50,
+    "availableStats": ["constitution", "strength", "intelligence", "agility"],
+    "recommendedBuild": {
+      "constitution": 20,
+      "strength": 1,
+      "intelligence": 15,
+      "agility": 4
+    },
+    "health": 50,
+    "mana": 15,
+    "startingSkills": ["healing_hands", "magic_pebble"],
+    "startingWeapon": "dagger",
+    "resourceType": "constitution",
+    "tags": ["mage"]
+  }
+]

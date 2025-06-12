@@ -1,0 +1,104 @@
+[
+  {
+    "id": "ember_bolt",
+    "name": "Ember Bolt",
+    "class": "ashcaller",
+    "level": 1,
+    "castType": "targeted",
+    "scalesWith": {"intelligence": 0.5},
+    "description": "Fires a bolt of searing ash at the enemy.",
+    "resourceCost": 10,
+    "resourceType": "mana",
+    "cooldown": 1,
+    "tags": ["damage", "magic"],
+    "effects": {
+      "damage": 15,
+      "burnChance": 25
+    }
+  },
+  {
+    "id": "cinder_wisp",
+    "name": "Cinder Wisp",
+    "class": "ashcaller",
+    "level": 1,
+    "castType": "targeted",
+    "scalesWith": {"intelligence": 0.5},
+    "description": "Summons a wisp to aid you in battle for 3 turns.",
+    "resourceCost": 15,
+    "resourceType": "mana",
+    "cooldown": 3,
+    "tags": ["summon", "support"],
+    "effects": {
+      "summon": "wisp",
+      "duration": 3
+    }
+  },
+  {
+    "id": "shield_bash",
+    "name": "Shield Bash",
+    "class": "warden",
+    "level": 1,
+    "castType": "targeted",
+    "scalesWith": {"strength": 0.3},
+    "description": "Deals damage and has a chance to stun.",
+    "resourceCost": 5,
+    "resourceType": "stamina",
+    "cooldown": 2,
+    "tags": ["damage", "stun", "melee"],
+    "effects": {
+      "damage": 10,
+      "stunChance": 30
+    }
+  },
+  {
+    "id": "iron_will",
+    "name": "Iron Will",
+    "class": "warden",
+    "level": 1,
+    "castType": "self",
+    "scalesWith": {"agility": 0.5},
+    "description": "Temporarily boosts your defense.",
+    "resourceCost": 10,
+    "resourceType": "stamina",
+    "cooldown": 4,
+    "tags": ["buff", "tank"],
+    "effects": {
+      "defenseBoost": 20,
+      "taunt": true,
+      "duration": 3
+    }
+  },
+  {
+    "id": "healing_hands",
+    "name": "Healing Hands",
+    "class": "hollowed",
+    "level": 1,
+    "castType": "self",
+    "scalesWith": {"intelligence": 0.5},
+    "description": "Transfer your own life force to restore an ally.",
+    "resourceCost": 10,
+    "resourceType": "health",
+    "cooldown": 2,
+    "tags": ["heal", "sacrifice"],
+    "effects": {
+      "healAmount": 25,
+      "selfDamage": 10
+    }
+  },
+  {
+    "id": "magic_pebble",
+    "name": "Magic Pebble",
+    "class": "hollowed",
+    "level": 1,
+    "castType": "targeted",
+    "scalesWith": {"intelligence": 0.5},
+    "description": "A weak projectile to disrupt enemies.",
+    "resourceCost": 2,
+    "resourceType": "health",
+    "cooldown": 0,
+    "tags": ["damage", "cantrip"],
+    "effects": {
+      "damage": 5
+    }
+  }
+]
